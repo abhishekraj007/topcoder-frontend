@@ -7,7 +7,7 @@ Taking Topcoder Front Page as a design source and converting it into a template 
 
 ## How To
 
-Let's see the code and approaches involved to replicate the similar design that you see on the front page of Topcoder website:
+Let's see the code and approach involved to replicate the similar design that you see on the front page of Topcoder website:
 
 ##### Table of contents    
    
@@ -60,7 +60,7 @@ After writing above markup our navigation bar will look like this:
 
 ![nav1](https://github.com/abhishekraj007/topcoder-frontend/blob/master/screenshots/nav1.PNG)
 
-CSS code to make our navigation bar look similar to topcoder navigation
+CSS code to make our navigation bar look similar to topcoder navigation. (Note: You'll need a sass compiler to compile these scss code/ grab the compiled css code from the final source code)
 
 ```css
 .navbar-default {
