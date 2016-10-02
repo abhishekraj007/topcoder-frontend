@@ -17,7 +17,7 @@ Let's see the code and approaches involved to replicate the similar design that 
 * [Section 3- Community](#section3)  
 * [Section 4- Challenge](#section4)
 * [One page scrolling effect](#onepage)
-* [Resources][#resources]
+* [Resources](#resources)
 * [Note](#note)
 
 <a name="navigation">
