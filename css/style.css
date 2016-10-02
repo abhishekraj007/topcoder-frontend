@@ -53,6 +53,12 @@ h2 {
   color: #ffffff;
 }
 
+.btn-default:focus {
+  background-color: #0b65a5;
+  border-color: #0b65a5;
+  color: #ffffff;
+}
+
 .container {
   width: 95%;
 }
