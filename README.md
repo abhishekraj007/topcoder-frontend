@@ -575,7 +575,7 @@ I have added some extra css code to make this page responsive and remove onepage
 
 * Topcoder
 * Bootstrap
-* OnePageScolling by Peter Resources
+* OnePageScolling plugin
 
 <a name="note">
 ## Note
