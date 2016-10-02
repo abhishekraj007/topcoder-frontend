@@ -22,7 +22,8 @@ Let's see the code and approaches involved to replicate the similar design that 
 
 <a name="navigation">
 ## Top Navigation Menu
-First thing first, Build Top menu (Using bootstrap to make life little easy).
+First thing first, Build Top menu (Using bootstrap to make life little easy). 
+Top header includes a logo at left side and two buttons at right side. The following html code will give required skeleton.
 
 ```html
 <!--  Top Navigation Bar -->
@@ -47,13 +48,10 @@ First thing first, Build Top menu (Using bootstrap to make life little easy).
                         <a href="#" class="btn btn-default">Contact Us</a>
                         <a href="#" class="btn btn-default">Log in</a>
                     </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-        <!-- Nav -->
-    </header>
+                </div> <!-- /.navbar-collapse -->
+            </div>  <!-- /.container-fluid -->
+        </nav> <!-- Nav -->
+    </header><!-- header -->
     
 ```
 (Read bootstrap documentation here, how to create a [navigation bar](http://getbootstrap.com/components/#navbar))
@@ -81,7 +79,7 @@ CSS code to make our navigation bar look similar to topcoder navigation
         }
     }
 }
-// Making default button style global so that it could be use anywhere on the page
+// Making default-button style global so that it could be use anywhere on the page
 .btn-default {
     background-color: $main;
     border-color: $main;
@@ -113,9 +111,9 @@ Now our final navigation will look something like this:
 
 
 <a name="section1">
-## Section 1
+## Section 1- Crowdsourcing1
 
-The first section is easy, paste the following html code to generate the skeleton 
+The first section is easy, It contain a `heading`, a `subheading` and below it, two `buttons` all floating to the left. paste the following html code to generate the required skeleton. 
 
 ```html
     <section>
@@ -128,25 +126,19 @@ The first section is easy, paste the following html code to generate the skeleto
                             <div class="two-buttons">
                                 <a href="#">I want to get work done</a>
                                 <a href="#">I want to join Topcoder</a>
-                            </div>
-                            <!-- two button -->
-                        </div>
-                        <!-- col -->
-                    </div>
-                    <!-- row -->
-                </div>
-                <!-- container -->
-            </div>
-            <!-- crowd-sourcing1 -->
-        </section>
-        <!-- section -->
+                            </div><!-- two button -->
+                        </div><!-- col -->
+                    </div><!-- row -->
+                </div><!-- container -->
+            </div><!-- crowd-sourcing1 -->
+        </section><!-- section -->
 
 ```
 After writing above html markup, our code will generate view something like this:
 
 ![section1_1](https://github.com/abhishekraj007/topcoder-frontend/blob/master/screenshots/sec1_1.PNG)
 
-Now paste the following CSS code to match with first section of topcoder page:
+Now paste the following CSS code to match style with the first section of topcoder page:
 
 ```css
 .crowd-sourcing1 {
@@ -195,7 +187,7 @@ The output after pasting above css code will generate view something like this:
 ![section1_2](https://github.com/abhishekraj007/topcoder-frontend/blob/master/screenshots/sec1_2.PNG)
 
 <a name="section2">
-## Section 2
+## Section 2 - Crowdsourcing2
 
 Now let's move to the section 2. This section contains one `heading` at the top and one `row` with 3 `columns`. Each column contains one big `icon`, `subheader` below the icon, a `paragraph`, and a `button` below the paragraph. To generate this type of skeleton paste the following html code in your editor.
 
