@@ -9,9 +9,18 @@ Find Demo [here](https://abhishekraj007.github.io/apps/topcoder)
 
 Let's see the code and approaches I followed to replicate similar design as Topcodes pages:
 
+##### Table of contents    
+   
+* [Navigation Menu](#navigation)
+* [Section 1](#section1)
+* [Section 2](#section2)  
+* [Section 3](#section3)  
+
+<a name="navigation">
+## Top Navigation Menu
 First thing first, Navigation top menu. I am using bootstrap to make life little easy.
 
-```
+```html
 <!-- ------------------------------------------------
         -------------- HEADER NAV SECTION-------------- -->
     <header>
@@ -46,11 +55,11 @@ First thing first, Navigation top menu. I am using bootstrap to make life little
 ```
 After writing above markup our navigation will look like this:
 
-![nav1](/screenshots/nav1.png)
+![nav1](https://github.com/abhishekraj007/topcoder-frontend/blob/master/screenshots/nav1.PNG)
 
 CSS code to make our navigation look similar to topcoder navigation
 
-```
+```css
 .navbar-default {
     background-color: $white;
     height: 80px;
@@ -88,7 +97,25 @@ CSS code to make our navigation look similar to topcoder navigation
 ```
 Now our navigation will look something like this:
 
-![styled navigation bar](screenshots/nav2.png)
+![styled navigation bar](https://github.com/abhishekraj007/topcoder-frontend/blob/master/screenshots/nav2.PNG)
+
+
+
+<a name="section1">
+## Section 1
+
+
+<a name="section2">
+## Section 2
+
+
+<a name="section3">
+## Section 3
+
+
+
+
+
 
 ## Note
 
