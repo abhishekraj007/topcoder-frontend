@@ -1,6 +1,6 @@
 # Topcoder Pages deconstructed
 
-Taking Topcoder Front Page as a design inspiration and converting it into code to practice Front-end development skill.
+Taking Topcoder Front Page as a design source and converting it into a template to practice Front-end development skill.
 
 [Demo](https://abhishekraj007.github.io/apps/topcoder)
 
